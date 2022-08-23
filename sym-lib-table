@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "NCP1117DT33G")(type "Legacy")(uri "${KIPRJMOD}/libraries/NCP1117DT33G/NCP1117DT33G.lib")(options "")(descr ""))
+  (lib (name "ABLS-12.000MHZ-B4-T")(type "Legacy")(uri "${KIPRJMOD}/libraries/ABLS-12.000MHZ-B4-T/ABLS-12.000MHZ-B4-T.lib")(options "")(descr ""))
 )

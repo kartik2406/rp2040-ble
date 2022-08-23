@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "NCP1117DT33G")(type "KiCad")(uri "${KIPRJMOD}/libraries/NCP1117DT33G")(options "")(descr ""))
+  (lib (name "ABLS-12")(type "KiCad")(uri "${KIPRJMOD}/libraries/ABLS-12.000MHZ-B4-T")(options "")(descr ""))
 )
