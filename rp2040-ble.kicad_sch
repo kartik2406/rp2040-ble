@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RP2040 BLE")
+    (date "2022-08-27")
+    (rev "v1")
+    (comment 2 "https://creativecommons.org/licenses/by/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Kartik Malik")
+  )
+
   (lib_symbols
     (symbol "ABLS-12.000MHZ-B4-T:ABLS-12.000MHZ-B4-T" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (id 0) (at -5.08 3.81 0)
@@ -3092,7 +3101,7 @@
     (property "Value" "DNF" (id 1) (at 172.72 33.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 170.18 31.75 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 170.18 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 31.75 0)
@@ -3132,7 +3141,7 @@
     (uuid 2765ac31-1258-496d-868b-a8d79f385fb9)
     (property "Reference" "R6" (id 0) (at 158.75 36.83 90))
     (property "Value" "1k" (id 1) (at 158.75 39.37 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 158.75 43.18 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 158.75 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 158.75 43.18 0)
@@ -3282,7 +3291,7 @@
     (uuid 396cd95e-c51a-485e-8d27-e8b8f30a1b91)
     (property "Reference" "R1" (id 0) (at 26.67 99.06 90))
     (property "Value" "27.4" (id 1) (at 29.21 101.6 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 29.21 104.14 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 29.21 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.21 104.14 0)
@@ -3893,7 +3902,7 @@
     (property "Value" "1k" (id 1) (at 168.91 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 166.37 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 166.37 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 86.36 0)
@@ -4082,7 +4091,7 @@
     (property "Value" "1k" (id 1) (at 127 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 124.46 63.5 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 124.46 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 124.46 63.5 0)
@@ -4152,7 +4161,7 @@
     (property "Value" "1k" (id 1) (at 148.59 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 146.05 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 146.05 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 146.05 86.36 0)
@@ -4250,7 +4259,7 @@
     (uuid ddc112ab-af65-4c6c-b634-b868e7861ce8)
     (property "Reference" "R2" (id 0) (at 28.6697 106.8682 90))
     (property "Value" "27.4" (id 1) (at 29.21 111.76 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 29.21 109.22 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 29.21 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.21 109.22 0)
@@ -4665,25 +4674,25 @@
       (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
     )
     (path "/396cd95e-c51a-485e-8d27-e8b8f30a1b91"
-      (reference "R1") (unit 1) (value "27.4") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R1") (unit 1) (value "27.4") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ddc112ab-af65-4c6c-b634-b868e7861ce8"
-      (reference "R2") (unit 1) (value "27.4") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R2") (unit 1) (value "27.4") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/be235b21-ee57-4d5c-af0b-89b0a19c4cea"
-      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/cc0f1680-b3c8-4d4d-abcc-50aa4f2eccdb"
-      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2765ac31-1258-496d-868b-a8d79f385fb9"
-      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/95e74ba7-789b-4626-929d-5c80a3645439"
-      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2152357c-0ad2-4b05-be58-aaf94923aea4"
-      (reference "R8") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R8") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/097d2be6-1b1c-4e8c-8674-3a4512b0d1e4"
       (reference "SW1") (unit 1) (value "PTS810_SJK_250_SMTR_LFS") (footprint "PTS810:PTS810 SJK 250 SMTR LFS")
