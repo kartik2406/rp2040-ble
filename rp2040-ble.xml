@@ -2,19 +2,19 @@
 <export version="E">
   <design>
     <source>D:\electronic-schematics\rp2040-ble\rp2040-ble.kicad_sch</source>
-    <date>27-08-2022 9.37.04 PM</date>
+    <date>04-09-2022 9.00.25 PM</date>
     <tool>Eeschema (6.0.6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>RP2040 BLE</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>v1</rev>
+        <date>2022-08-27</date>
         <source>rp2040-ble.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="2" value="https://creativecommons.org/licenses/by/4.0/"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Kartik Malik"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
         <comment number="7" value=""/>
@@ -195,6 +195,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>66fb3c9c-b95f-49b8-b4a1-3ceed46bf13e</tstamps>
     </comp>
+    <comp ref="F1">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63a59d66-87e1-49c1-921f-171809354d31</tstamps>
+    </comp>
     <comp ref="H1">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
@@ -269,7 +278,7 @@
     </comp>
     <comp ref="R1">
       <value>27.4</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -278,7 +287,7 @@
     </comp>
     <comp ref="R2">
       <value>27.4</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -287,7 +296,7 @@
     </comp>
     <comp ref="R4">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -296,7 +305,7 @@
     </comp>
     <comp ref="R5">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -305,7 +314,7 @@
     </comp>
     <comp ref="R6">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -314,7 +323,7 @@
     </comp>
     <comp ref="R7">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -323,7 +332,7 @@
     </comp>
     <comp ref="R8">
       <value>DNF</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rp2040-ble.kicad_sch"/>
@@ -564,6 +573,23 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Small">
@@ -968,21 +994,16 @@
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="47" name="/VBUS">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
-    </net>
-    <net code="48" name="/XIN">
+    <net code="47" name="/XIN">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="1" pintype="passive"/>
     </net>
-    <net code="49" name="/XOUT">
+    <net code="48" name="/XOUT">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="50" name="GND">
+    <net code="49" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1021,28 +1042,37 @@
       <node ref="U3" pin="4" pinfunction="GND" pintype="input"/>
       <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="51" name="Net-(C13-Pad1)">
+    <net code="50" name="Net-(C13-Pad1)">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="Y1" pin="2" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(C15-Pad1)">
+    <net code="51" name="Net-(C15-Pad1)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="IN" pintype="input"/>
     </net>
-    <net code="53" name="Net-(D1-Pad2)">
+    <net code="52" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(D2-Pad2)">
+    <net code="53" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="unconnected-(J3-Pad4)">
+    <net code="54" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="VBUS">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="56" name="unconnected-(J3-Pad4)">
       <node ref="J3" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U3-Pad11)">
+    <net code="57" name="unconnected-(U3-Pad11)">
       <node ref="U3" pin="11" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
