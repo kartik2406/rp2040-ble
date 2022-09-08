@@ -6,8 +6,8 @@
 
   (title_block
     (title "RP2040 BLE")
-    (date "2022-08-27")
-    (rev "v1")
+    (date "2022-09-08")
+    (rev "v2")
     (comment 2 "https://creativecommons.org/licenses/by/4.0/")
     (comment 3 "License: CC BY 4.0")
     (comment 4 "Author: Kartik Malik")
@@ -1599,7 +1599,6 @@
       )
     )
   )
-
 
   (junction (at 135.89 154.94) (diameter 0) (color 0 0 0 0)
     (uuid 00209f4a-5f7f-4875-86b6-a4bee45a72e1)

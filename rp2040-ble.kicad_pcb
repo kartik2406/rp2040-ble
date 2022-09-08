@@ -5,6 +5,15 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "RP2040 BLE")
+    (date "2022-09-08")
+    (rev "v2")
+    (comment 2 "https://creativecommons.org/licenses/by/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Kartik Malik")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" power)
